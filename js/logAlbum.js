@@ -9,7 +9,7 @@ const spotifyToken = import.meta.env.VITE_SPOTIFY_TOKEN;
 async function getAlbumCover(album, artist) {
     const response = await fetch(
     `https://api.spotify.com/v1/search?q=${album}+${artist}&type=album&limit=1`,
-    { headers: { 'Authorization': 'Bearer {spotifyToken}' } }
+    { headers: { 'Authorization': 'Bearer spotifyToken' } }
     );
     const data = await response.json();
     console.log(data);
