@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log Album</title>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth-compat.js"></script>
+</head>
+<body>
+    <section id="app">
+        <h1>Log Album</h1>
+        <form id="albumForm">
+            <input type="text" id="albumName" placeholder="Album" required>
+            <input type="text" id="artist" placeholder="Artist" required>
+            <input type="number" id="rating" min="1" max="5" placeholder="Rating(1 - 5)" required>
+            <button type="submit">Log Album</button>
+        </form>
+
+        <section id="album-list"></section>
+    </section>
+
+    <script src="app.js"></script>
+    <script src="logAlbum.js"></script>
+</body>
+</html>
