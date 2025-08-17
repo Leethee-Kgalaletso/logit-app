@@ -1,0 +1,158 @@
+body {
+    background: #CBE3CE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+#login-card {
+    background: white;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+
+#li-msg {
+    font-size: 16px;
+    color: black !important;
+    margin-bottom: 30px;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 12px;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+#login-form p {
+    text-align: left;
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+#login-card h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Kalnia', sans-serif;
+}
+
+#login-form input {
+    padding: 12px 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#login-form input:focus {
+    outline: none;
+    border-color: #CBE3CE;
+}
+
+#login-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#login-form button:hover {
+    background-color: #3e8e41;
+}
+
+#login-form a {
+    color: #666;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#login-form a:hover {
+    text-decoration: underline;
+}
+
+#google-login {
+    background-color: white;
+    color: #333;
+    border: 1px solid #000000;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background-color 0.3s;
+}
+
+#google-login:hover {
+    background-color: #f5f5f5;
+}
+
+#acc-check {
+    color: #666;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+#acc-check a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#acc-check a:hover {
+    text-decoration: underline;
+}
+
+/* Separator style */
+#login-card > p {
+    color: #999;
+    margin: 20px 0;
+    position: relative;
+}
+
+#login-card > p:before,
+#login-card > p:after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    margin: auto;
+}
+
+#login-card > p:before {
+    margin-right: 10px;
+}
+
+#login-card > p:after {
+    margin-left: 10px;
+}
