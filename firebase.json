@@ -12,6 +12,16 @@
       {
         "source": "**",
         "destination": "/index.html"
+      },
+
+      {
+        "source": "/login",
+        "desination": "/login.html"
+      },
+
+      {
+        "source": "/signup",
+        "destination": "/signup.html"
       }
     ]
   }
