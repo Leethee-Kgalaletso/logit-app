@@ -16,7 +16,7 @@
 
       {
         "source": "/login",
-        "desination": "/login.html"
+        "destination": "/login.html"
       },
 
       {
